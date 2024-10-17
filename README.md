@@ -15,7 +15,7 @@
   - ensemble fini de sommets  S= { S1, S2, S3, ..... Sn}
   -   un ensemble fini d'arcs A= {A1, A2,.... An}
 •  Vocabulaire :
-  - Soient un graphe orienté G = { S, A } et deux sommets $ x \in S $ et $ y \in S $
+  - Soient un graphe orienté G = { S, A } et deux sommets $x \in S$ et $ y \in S $
   - Si $$ a = (x,y) \in A $$ :
       -  x est l’extrémité initiale de a 
       -  y est l’extrémité terminale de a
