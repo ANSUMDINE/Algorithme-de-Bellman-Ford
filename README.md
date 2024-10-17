@@ -5,6 +5,7 @@
    - planning de tâches
    - courant dans un circuit électrique
    - réseau informatique
+     
 • On peut attribuer aux sommets ou aux arcs/arêtes des valeurs :
   - longueur, durée
   - capacité de transport
