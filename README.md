@@ -47,19 +47,19 @@ D'où la nécessité de ne pas avoir de circuit.
 
 ###### Algorithme
 
-```python
-def BellmanFord(R, s0):
-    M = {s0}
-    for x in S:
-        δ[x] = float('inf')
-        pred[x] = None
-    δ[s0] = 0
+BellmanFord(R, s0)
+    M ← {s0}
+    pour tout x ∈ X faire
+        δ(x) ← +∞
+        pred(x) ← indéfini
+    δ(s0) ← 0
 
-    while exists(x not in M whose predecessors are all in M):
-        M.add(x)
-        for (y, x) in arcs where y in M:
-            if δ[x] > δ[y] + p(y, x):
-                δ[x] = δ[y] + p(y, x)
-                pred[x] = y
+    tant qu'il existe x ∉ M dont tous les prédécesseurs sont dans M faire
+        M ← M ∪ {x}
+        pour chaque arc (y, x) tel que y ∈ M faire
+            si δ(x) > δ(y) + p(y, x) alors
+                δ(x) ← δ(y) + p(y, x)
+                pred(x) ← y
 
-    return δ, pred
+    retourner (δ, pred)
+
