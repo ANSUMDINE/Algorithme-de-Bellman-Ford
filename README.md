@@ -129,3 +129,31 @@ La différence principale réside dans la structure de données utilisée :
 La première implémentation utilise une liste de listes pour stocker les arêtes.
 
 La deuxième implémentation utilise un dictionnaire de listes pour stocker les arêtes.
+
+# Structure du Projet
+- `main.py` : Le script principal qui démontre l'utilisation des deux implémentations.
+- `implementation/` :
+  - `bellman_ford_list.py` : Implémentation utilisant des listes pour stocker les arêtes.
+  - `bellman_ford_dict.py` : Implémentation utilisant des dictionnaires pour stocker les arêtes.
+- `test/` :
+  - `test_bellman_ford.py` : Tests unitaires pour vérifier la correction des implémentations.
+
+# Résumé des Implémentations
+1. **Bellman-Ford avec Listes**
+   - Utilise des listes pour stocker les arêtes du graphe.
+   - Complexité temporelle : \( O(V \times E) \)
+   - Complexité spatiale : \( O(V + E) \)
+
+2. **Bellman-Ford avec Dictionnaires**
+   - Utilise des dictionnaires pour stocker les arêtes du graphe.
+   - Complexité temporelle : \( O(V \times E) \)
+   - Complexité spatiale : \( O(V + E) \)
+
+# Visualisation
+Une visualisation interactive de l'algorithme Bellman-Ford est générée en utilisant `networkx` et `Pyvis`, offrant une représentation graphique claire des calculs de distances minimales. Pour voir la visualisation, exécutez le script principal et ouvrez le fichier `bellman_ford.html` généré.
+
+# Tests
+Les tests unitaires sont inclus pour vérifier l'exactitude des implémentations. Utilisez `pytest` pour exécuter les tests :
+```sh
+pytest
+
