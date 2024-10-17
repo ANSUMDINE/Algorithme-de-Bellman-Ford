@@ -156,3 +156,6 @@ La première implémentation utilise une liste de listes pour stocker les arête
 
 La deuxième implémentation utilise un dictionnaire de listes pour stocker les arêtes.
 
+# Ressources:
+- https://fr.wikipedia.org/wiki/Algorithme_de_Bellman-Ford
+- https://www.techno-science.net/definition/6471.html
