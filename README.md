@@ -39,7 +39,7 @@ D'où la nécessité de ne pas avoir de circuit.
 
 ##### Données
 - Un réseau \( R = (X, U, p) \)
-- \( s_0 \in X \)
+- $\( s_0 \in X \)$
 
 ###### Résultats
 - Une fonction \( \delta \) indiquant la plus courte distance de \( s_0 \) à un sommet \( x \) de \( X \)
@@ -73,12 +73,12 @@ BellmanFord(R, s0)
 # Résumé des Implémentations
 1. **Bellman-Ford avec Listes**
    - Utilise des listes pour stocker les arêtes du graphe.
-   - Complexité temporelle : \( O(V \times E) \)
+   - Complexité temporelle : \( O(V * E) \)
    - Complexité spatiale : \( O(V + E) \)
 
 2. **Bellman-Ford avec Dictionnaires**
    - Utilise des dictionnaires pour stocker les arêtes du graphe.
-   - Complexité temporelle : \( O(V \times E) \)
+   - Complexité temporelle : \( O(V * E) \)
    - Complexité spatiale : \( O(V + E) \)
 
 # Visualisation
