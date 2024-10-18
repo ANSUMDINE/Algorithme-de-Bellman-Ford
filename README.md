@@ -53,7 +53,6 @@ BellmanFord(R, s0)
         δ(x) ← +∞
         pred(x) ← indéfini
     δ(s0) ← 0
-
     tant qu'il existe x ∉ M dont tous les prédécesseurs sont dans M faire
         M ← M ∪ {x}
         pour chaque arc (y, x) tel que y ∈ M faire
